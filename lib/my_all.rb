@@ -3,7 +3,7 @@
 def my_all?(collection)
   i = 0
   block_return_values = []
-    while i < collection.
+    while i < collection
      block_return_values <<
     yield(collection[1])
     i = i + 1 
