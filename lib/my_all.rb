@@ -8,5 +8,6 @@ def my_all?(collection)
     yield(collection[1])
     i = i + 1 
   end
+  
 end
-def my_all?(collection)
+
