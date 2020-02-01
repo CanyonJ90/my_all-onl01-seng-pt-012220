@@ -1,8 +1,11 @@
 require 'pry'
+
 def my_all?(collection)
   i = 0
+  block_return_values = []
   while i < collection.length
-    i = i + 1   #i += 1 does the same thing. Use this if it's easier for you.
+    yield(collection[1])
+    i = i + 1 
   end
 end
 def my_all?(collection)
